@@ -1,0 +1,160 @@
+body {
+
+  background-repeat: no-repeat;
+  height: 100vh;
+  background:  #666DEF;
+  overflow: hidden;
+
+}
+legend {
+  padding-bottom: 50px;
+  font-family: 'Tenor Sans', sans-serif;
+  font-size: 3em;
+
+  color: white;
+
+  font-weight: bold;
+  font-size: 50px;
+  margin-left: 40px;
+
+}
+
+
+
+#user-username {
+  background: rgba(255,255,255,.1);
+  border: 1px solid white;
+  border-radius: 15px;
+  font-family: 'Arial';
+  background-color: white;
+}
+
+#user-password {
+  background: rgba(255,255,255,.1);
+  border: 1px solid white;
+  border-radius: 15px;
+  font-family: 'Arial';
+  color: blue;
+}
+
+#user-password1 {
+  background: rgba(255,255,255,.1);
+  border: 1px solid white;
+  border-radius: 15px;
+  font-family: 'Arial';
+  color: blue;
+  background-color: white;
+}
+
+.is-active {
+  box-shadow: 0 20px 5px -10px rgba(#000, 0.4);
+  transform: translateY(10px);
+}
+
+.form-group {
+  padding-bottom: 40px;
+
+
+}
+
+canvas {
+  height: 100%;
+  width: 100%;
+}
+
+
+#user-password {
+margin-right: 100px;
+background-color: white;
+color: blue;
+
+}
+
+::placeholder {
+  color: blue;
+  opacity: 1;
+  text-indent: 10px;
+  margin-bottom: 10px;
+}
+
+input {
+  height: 40px;
+  width: 250px;
+  color: white;
+  font-family: "Arial";
+
+
+}
+
+#continue {
+  background-color: white;
+  color: white;
+  font-family: 'Tenor Sans', sans-serif;
+
+}
+
+label {
+  font-size: 20px;
+}
+
+button {
+  height: 42px;
+  width: 255px;
+  border-radius: 15px;
+
+  color: white;
+
+}
+#continue {
+  background-color: #59F8CF;
+  border-right: white;
+}
+
+.container {
+  display:flex;
+  flex-direction: column;
+ justify-content: center;
+ text-align: center;
+ color: white;
+
+ margin: auto;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ width: 200px;
+ height: 100vh;
+ margin-left: 575px;
+}
+
+#signup {
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-bottom: -100px;
+  margin-left: 200px;
+}
+
+#mini-button {
+  border: 1px solid white;
+  margin-top: 30px;
+  border-radius: 15px;
+  background-color:  transparent;
+  color: white;
+  font-family: 'Arial';
+
+}
+
+h1{
+  font-family: 'Helvetica Neue';
+ font-weight: lighter;
+  margin-left: -5px;
+  width:150px;
+  white-space: nowrap;
+  margin-bottom: 50px;
+
+}
+img{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  margin-bottom: -5px;
+}
